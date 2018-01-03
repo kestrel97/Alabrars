@@ -1,0 +1,177 @@
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+/* .rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+} */
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 25px 0px;
+  border-bottom: 1px ridge;
+
+  /*min-height: 400px;*/
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+.container-content{
+  background: white;
+}
+.bgimg {
+    background-image: url("C:/Users/UseR/Desktop/bootstrap/Alabrars/img/brand.jpg");
+     background-repeat: no-repeat;
+}
+
+  #borderwhite { border-left: 2px solid white ; border-bottom: 4px solid  white }
+    #borderblue { border-left: 2px solid lightblue ; border-bottom: 4px solid  lightblue }
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #7986CB;
+  color: floralwhite;
+}
+.carousel {
+  background: #99ffff;
+}
+.carousel .item {
+  height: 400px;
+
+}
+.carousel .item img {
+  left: 0;
+  min-height: 500px;
+  position: absolute;
+  top: 0;
+}
+#text{
+    color: black;
+    text-decoration: underline;
+}
+.navbar-light {
+    background: #99ffff;
+  color: #003333;
+  font-size: 120%;
+}
+.navbar-light .navbar-nav > .active > a {
+  background: #ccffff;
+  color: #003333;
+}
+.navbar-light .navbar-nav > .active > a:hover {
+  background: #ccffff;
+  color: #003333;
+}
+.navbar-light .navbar-nav > .active > a:focus {
+  background: #ccffff;
+  color: #003333;
+}
+.navbar-light .navbar-nav > .open > a {
+  background: #ccffff;
+  color: #003333;
+}
+
+.navbar-light .navbar-nav > .open > a:hover {
+  background: #ccffff;
+  color: #003333;
+}
+.navbar-light .navbar-nav > .open > a:focus {
+  background: #ccffff;
+  color: #003333;
+}
+
+.navbar-light .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+.navbar-light .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #003333;
+}
+.navbar-light .navbar-nav .open .dropdown-menu {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+/* #back-img{background-image: url("img/uthappizza.png");} */
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+
+  body {
+    background-color:#e6ffff;
+    align: center;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+  }
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 100px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+.head-right{
+	float:right; margin:auto; width:60%;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 30px;
+}
