@@ -65,23 +65,23 @@
   padding: 20px 0px;
   background-color: #AfAfAf;
 }
-.container-content{
-  background: white;
-}
-.bgimg {
-    background-image: url("C:/Users/UseR/Desktop/bootstrap/Alabrars/img/brand.jpg");
-     background-repeat: no-repeat;
-}
-
-  #borderwhite { border-left: 2px solid white ; border-bottom: 4px solid  white }
-    #borderblue { border-left: 2px solid lightblue ; border-bottom: 4px solid  lightblue }
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
   background: #7986CB;
   color: floralwhite;
 }
-.carousel {
+/* ////////////////////////////// */
+#myCarousel{min-height: 400px ; }
+.carousel1 img{
+  left: 0;
+  min-height: 500px;
+  position: absolute;
+  top: 0;
+}
+
+/* /////////////////////////////// */
+/* .carousel {
   background: #99ffff;
 }
 .carousel .item {
@@ -93,11 +93,20 @@
   min-height: 500px;
   position: absolute;
   top: 0;
+} */
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
 }
-#text{
-    color: black;
-    text-decoration: underline;
-}
+/* ///////////////////////////////////// */
+/* CSS used here will be applied after bootstrap.css */
+
+#myCarousel2 .carousel-inner .active.left { left: -25%; }
+#myCarousel2 .carousel-inner .next        { left:  25%; }
+#myCarousel2 .carousel-control.left,.carousel-control.right {background-image:none;}
+
+/* ///////////////////////////////////// */
 .navbar-light {
     background: #99ffff;
   color: #003333;
@@ -146,13 +155,12 @@ address {
   font-size: 80%;
   margin: 0px;
 }
-
-  body {
+body {
     background-color:#e6ffff;
     align: center;
     padding: 50px 0px 0px 0px;
     z-index: 0;
-  }
+}
 .tab-content {
   border-bottom: 1px solid #dddddd;
   border-left: 1px solid #dddddd;
@@ -162,16 +170,29 @@ address {
 .affix {
   top: 100px;
 }
-#carouselButtons {
-  bottom: 0px;
-  position: absolute;
-  right: 0px;
-}
+
 .head-right{
 	float:right; margin:auto; width:60%;
 }
 
-.vl {
-    border-left: 2px solid black;
-    height: 30px;
+
+.container-content{
+  background: white;
 }
+.bgimg {
+    background-image: url("E:/hesh.@/bootstrap/Alabrars(updated)/img/brand.jpg");
+     background-repeat: no-repeat;
+}
+
+  #text{
+    color: black;
+    text-decoration: underline;
+}
+
+  #borderwhite { border-left: 2px solid white ; border-bottom: 4px solid  white }
+  #borderblue { border-left: 2px solid #e6ffff ; border-bottom: 4px solid  #e6ffff }
+  .img-responsive {
+        width: 600px;         /* or to whatever you want here */
+     max-height: 40px; /* or to whatever you want here */
+   }
+   .minheight { min-height: 240px}
